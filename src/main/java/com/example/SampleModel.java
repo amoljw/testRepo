@@ -22,6 +22,9 @@ public class SampleModel {
 
 }
 
+public class SampleModel {
+    private static final Logger logger = LoggerFactory.getLogger(SampleModel.class);
+
 public void test1(boolean isSuccess) {
         logger.debug("test");
 
