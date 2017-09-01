@@ -20,11 +20,6 @@ public class SampleModel {
         }
     }
 
-}
-
-public class SampleModel {
-    private static final Logger logger = LoggerFactory.getLogger(SampleModel.class);
-
 public void test1(boolean isSuccess) {
         logger.debug("test");
 
@@ -39,4 +34,17 @@ public void test1(boolean isSuccess) {
         }
     }
 
+public void test2(boolean isSuccess) {
+        logger.debug("test");
+
+        if (isSuccess) {
+            if (isSuccess) {
+                if (isSuccess) {
+                    if (isSuccess) {
+                        System.out.println("This is sample class to check sonar violations");
+                    }
+                }
+            }
+        }
+    }
 }
