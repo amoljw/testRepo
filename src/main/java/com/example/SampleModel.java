@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 public class SampleModel {
     private static final Logger logger = LoggerFactory.getLogger(SampleModel.class);
-    
+
     public void test(boolean isSuccess) {
         logger.debug("test");
 
@@ -20,12 +20,7 @@ public class SampleModel {
         }
     }
 
-}
-
-public class SampleModel {
-    private static final Logger logger = LoggerFactory.getLogger(SampleModel.class);
-
-public void test1(boolean isSuccess) {
+    public void test1(boolean isSuccess) {
         logger.debug("test");
 
         if (isSuccess) {
