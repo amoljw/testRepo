@@ -104,7 +104,7 @@ public void test6(boolean isSuccess) {
         }
     }
 
-public void test6(boolean isSuccess) {
+public void test7(boolean isSuccess) {
         logger.debug("test");
 
         if (isSuccess) {
