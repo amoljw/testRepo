@@ -159,4 +159,18 @@ public void test10(boolean isSuccess) {
             }
         }
     }
+
+public void test11(boolean isSuccess) {
+        logger.debug("test");
+
+        if (isSuccess) {
+            if (isSuccess) {
+                if (isSuccess) {
+                    if (isSuccess) {
+                        System.out.println("This is sample class to check sonar violations");
+                    }
+                }
+            }
+        }
+    }
 }
