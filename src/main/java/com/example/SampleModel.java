@@ -298,6 +298,7 @@ public void test20(boolean isSuccess) {
                 }
             }
         }
+   }
 
 public void test21(boolean isSuccess) {
         logger.debug("test");
@@ -312,4 +313,5 @@ public void test21(boolean isSuccess) {
             }
         }
     }
+
 }
